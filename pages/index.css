@@ -57,6 +57,10 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/resourses/resourses.css);
 @import url(../blocks/resourses/__logo/resourses__logo.css);
+@import url(../blocks/resourses/__logo/_arzamas/resourses__logo_arzamas.css);
+@import url(../blocks/resourses/__logo/_nplus1/resourses__logo_nplus1.css);
+@import url(../blocks/resourses/__logo/_polka/resourses__logo_polka.css);
+@import url(../blocks/resourses/__logo/_strelka/resourses__logo_strelka.css);
 @import url(../blocks/resourses/__logo-zone/resourses__logo-zone.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
