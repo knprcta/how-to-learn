@@ -1,3 +1,7 @@
+.link {
+  transition: opacity .3s ease-out;
+}
+
 .link:hover {
-  text-decoration: underline;
+  opacity: .3;
 }

@@ -5,8 +5,3 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.logo:hover {
-  outline: #2f80ed dotted 1px;
-  outline-offset: 5px;
-}
