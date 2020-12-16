@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <!-- В ревью указанно, что normalize.css нужно импортировать первым, но ведь он у меня и так первый? :) -->
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +18,7 @@
           использовать в своей жизни?
           <a href="#" class="header__link link" target="_self">Узнать &rarr;</a>
         </p>
-        <div class="header__main-illustration"></div>
+        <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка"></img>
         <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
@@ -116,26 +117,24 @@
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-            <iframe
-              class="video__iframe"
-              width="515"
-              height="316"
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              class="video__iframe"
-              width="515"
-              height="316"
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+          <ul class="video__iframes">
+            <li class="video__iframes-item">
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/arj7oStGLkU"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li class="video__iframes-item">
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
         </section>
 
         <section class="oakley">
@@ -227,7 +226,7 @@
             <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic"></div>
+              <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга"></img>
               <a class="khan__buy-link link" href="#" target="_self"
                 >Купить книгу &rarr;</a
               >

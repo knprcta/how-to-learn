@@ -1,0 +1,9 @@
+.video__iframes-item {
+  list-style-type: none;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.video__iframes-item:last-child {
+  margin-right: 0;
+}
