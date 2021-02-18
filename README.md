@@ -9,4 +9,4 @@
 ## В планах!
 Для начала - сделать ссылки рабочими.
 ## GitHub Pages
-- [Ссылка на проект в GitHub Pages](https://knprcta.github.io/mesto/index.html)
+- [Ссылка на проект в GitHub Pages](https://knprcta.github.io/how-to-learn/index.html)
